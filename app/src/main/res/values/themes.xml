@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CoffeeAppV3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CoffeeAppV3" parent="Base.Theme.CoffeeAppV3" />
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="CircleImageView2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="SettingsButton" parent="Widget.MaterialComponents.Button.TextButton">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:iconTint="@color/gray"
+        app:iconGravity="start"
+    </style>
+
+    <style name="SettingsRow">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+    </style>
+
+    <style name="SettingsIcon">
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="@color/gray"
+    </style>
+
+    <style name="SettingsText">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+    </style>
+
+    <style name="circleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
